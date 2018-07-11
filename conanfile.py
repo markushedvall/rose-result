@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class RoseResultConan(ConanFile):
     name = "rose-result"
-    version = "0.0.0"
+    version = "0.1.0"
     license = "MIT OR Apache-2.0"
     url = "https://github.com/markushedvall/rose-result"
     description = "Simple Result<T, E> API for returning errors"
